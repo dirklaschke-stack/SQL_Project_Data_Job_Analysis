@@ -36,7 +36,7 @@ FROM
 INNER JOIN skills_job_dim on top_paying_jobs.job_id = skills_job_dim.job_id
 INNER JOIN skills_dim on skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY
-    top_paying_jobs.salary_year_avg DESC
+    top_paying_jobs.salary_year_avg ASC
 
 /*
 Core Takeaways
@@ -44,7 +44,7 @@ SQL is universal: Present in 100% of postings, reinforcing that raw database ext
 Modern analytics engineering blend: The top roles require a hybrid skill profile. High earners are expected to operate like analytics engineers, demanding cloud warehouses (Snowflake, Azure, AWS), version control (Git, GitLab, Bitbucket), and agile tracking (Jira, Confluence).
 Breadth correlates with leadership: The highest-paying position (Associate Director – Data Insights at AT&T, $255.8k) required 13 distinct skills spanning big data (PySpark, Databricks), dual cloud stacks (AWS, Azure), and dual BI suites (Tableau, Power BI). In contrast, lower-paying entries focus strictly on a core statistical trifecta (SQL, Python, R).
 Tableau dominates Power BI (3:1): Among this upper-salary cohort, Tableau appeared in 75% of listings, whereas Power BI was explicitly listed in only 25%.
-/*
+*/
 
 /*
 [
@@ -577,4 +577,4 @@ Tableau dominates Power BI (3:1): Among this upper-salary cohort, Tableau appear
     "skills": "r"
   }
 ]
-/*
+*/
