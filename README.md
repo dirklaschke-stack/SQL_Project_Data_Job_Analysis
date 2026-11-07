@@ -34,7 +34,7 @@ This repository showcases course content and final capstone project from the **S
 
 The course culminates in a capstone project focused on real-world labor market analytics. Using a normalized dataset of 2023 tech job postings, you analyze compensation patterns, market demand, and skill values to identify high-leverage career opportunities.
 
-### Key Questions Addressed:
+### Key Questions:
 
 1. **Top-Paying Roles:** What are the highest-paying jobs available for the targeted role?
 2. **Skills for Top Earners:** What specific technical skills are required for these top-paying positions?
@@ -42,7 +42,7 @@ The course culminates in a capstone project focused on real-world labor market a
 4. **Top Skills by Salary:** Which skills correlate with the highest average compensation?
 5. **Optimal Skills:** Which high-value skills offer the ideal combination of high demand and premium pay?
 
-### Queries & Visualizations
+### Queries
 
 SQL Querries check them out here in project [SQL Folder](/project_sql) or click oin the links below
 
