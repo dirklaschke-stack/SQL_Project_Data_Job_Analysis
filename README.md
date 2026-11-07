@@ -53,7 +53,7 @@ The course culminates in a capstone project focused on real-world labor market a
 4. [Top Skills by Salary:](/project_sql/3_top_demanded_skills.sql)
 5 [Optimal Skills:](/project_sql/5_optimal_skills.sql)
 
-### Example Result for Question 3
+## Example Result for Question 3
 
 #### SQL Query
 
