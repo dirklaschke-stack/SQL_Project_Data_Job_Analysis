@@ -1,30 +1,29 @@
 # SQL for Data Analytics
 
+This repository showcases course content and final capstone project from the **SQL for Data Analytics** course by **Luke Barousse**. The course provides an end-to-end foundation in SQL and relational database analytics, using real-world tech job posting data to advance from core querying to production-grade PostgreSQL development
+
 [![Course: Luke Barousse](https://img.shields.io/badge/Course-Luke_Barousse-blue.svg)](https://www.lukebarousse.com/)
 [![Database: PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-336791.svg)](https://www.postgresql.org/)
 [![Tool: VS Code](https://img.shields.io/badge/Tool-VS_Code-007ACC.svg)](https://code.visualstudio.com/)
 
-This repository showcases my hands-on coursework, queries, and final capstone project from the **SQL for Data Analytics** course by **Luke Barousse**.
-
-## Course Overview & Core Competencies
-
-The course centers on practical, real-world data analysis using relational database systems:
-
-* **SQL & Relational Foundations:** Relational database principles (RDBMS), star schemas, and fact vs. dimension tables.
-* **Data Retrieval & Sorting:** Querying data using `SELECT`, `FROM`, `AS`, `LIMIT`, `DISTINCT`, and `ORDER BY`.
-* **Filtering & Pattern Matching:** Conditional logic using comparison operators, `BETWEEN`, `IN`, `LIKE` (wildcards), and `IS NULL`.
-* **Aggregation & Grouping:** Calculating metrics with `COUNT`, `SUM`, `AVG`, `MIN`, and `MAX` paired with `GROUP BY` and `HAVING`.
-* **Table Joins:** Combining datasets across primary/foreign keys using `INNER`, `LEFT`, `RIGHT`, and `OUTER JOIN`.
-* **Logical Order of Execution:** Understanding query execution flow (`FROM` $\rightarrow$ `WHERE` $\rightarrow$ `GROUP BY` $\rightarrow$ `SELECT`, etc.).
-* **Table Management (DDL & DML):** Creating, modifying, updating, and populating tables (`CREATE`, `ALTER`, `DROP`, `INSERT`, `UPDATE`, CSV `COPY`).
-* **Subqueries & CTEs:** Breaking down complex multi-step queries using subqueries and Common Table Expressions (`WITH ... AS`).
-* **Conditional Logic & Set Operations:** Applying conditional logic with `CASE WHEN` and combining query results using `UNION` / `UNION ALL`.
-* **Date Functions & Environment Setup:** Time-series analysis with `EXTRACT`, time zone casting, and running PostgreSQL locally in VS Code.
+## Course Content
 
 
-## Tech Stack & Tools
+* **Relational DB Basics:** RDBMS concepts, star schemas, fact vs. dimension tables
+* **Core Querying:** Retrieval, aliases, deduplication, and sorting (`SELECT`, `AS`, `DISTINCT`, `ORDER BY`, `LIMIT`)
+* **Filtering:** Conditions, ranges, wildcards, and null handling (`WHERE`, `IN`, `BETWEEN`, `LIKE`, `IS NULL`)
+* **Aggregation:** Summary statistics with grouping and filter conditions (`COUNT`, `SUM`, `AVG`, `GROUP BY`, `HAVING`)
+* **Table Joins:** Relational linking via `INNER`, `LEFT`, `RIGHT`, and `OUTER JOIN`
+* **Query Execution:** Internal DB execution logic (`FROM` → `WHERE` → `GROUP BY` → `SELECT`)
+* **DDL & DML:** Schema creation, alteration, data manipulation, and CSV loading (`CREATE`, `ALTER`, `INSERT`, `UPDATE`, `COPY`)
+* **Subqueries & CTEs:** Complex query modularization via nested subqueries and `WITH` clauses
+* **Logic & Set Operations:** Branching logic (`CASE WHEN`) and dataset merging (`UNION`, `UNION ALL`)
+* **Dates & Tooling:** Temporal analysis (`EXTRACT`, time zones) in local PostgreSQL and VS Code environments
 
-| Tool / Technology | Purpose |
+
+## Tools
+
+| Tool  | Purpose |
 | :--- | :--- |
 | **PostgreSQL** | Relational database hosting real-world job posting datasets |
 | **VS Code** | IDE with SQLTools integration for interactive query execution |
