@@ -10,10 +10,16 @@ This repository showcases my hands-on coursework, queries, and final capstone pr
 
 The course centers on practical, real-world data analysis using relational database systems:
 
-* **Advanced SQL Querying:** Complex joins (`INNER`, `LEFT`, `RIGHT`, `FULL`), subqueries, and Common Table Expressions (`CTEs`).
-* **Aggregations & Grouping:** Aggregate functions, `HAVING` filters, functional dependency evaluations, and performance considerations in `GROUP BY`.
-* **Data Cleaning & Manipulation:** Handling `NULL` values, type conversions (`CAST`), and date/time operations (`EXTRACT`, `DATE_TRUNC`).
-* **Analytical Problem Solving:** Translating business questions into efficient, clean, and maintainable SQL queries.
+* **SQL & Relational Foundations:** Relational database principles (RDBMS), star schemas, and fact vs. dimension tables.
+* **Data Retrieval & Sorting:** Querying data using `SELECT`, `FROM`, `AS`, `LIMIT`, `DISTINCT`, and `ORDER BY`.
+* **Filtering & Pattern Matching:** Conditional logic using comparison operators, `BETWEEN`, `IN`, `LIKE` (wildcards), and `IS NULL`.
+* **Aggregation & Grouping:** Calculating metrics with `COUNT`, `SUM`, `AVG`, `MIN`, and `MAX` paired with `GROUP BY` and `HAVING`.
+* **Table Joins:** Combining datasets across primary/foreign keys using `INNER`, `LEFT`, `RIGHT`, and `OUTER JOIN`.
+* **Logical Order of Execution:** Understanding query execution flow (`FROM` $\rightarrow$ `WHERE` $\rightarrow$ `GROUP BY` $\rightarrow$ `SELECT`, etc.).
+* **Table Management (DDL & DML):** Creating, modifying, updating, and populating tables (`CREATE`, `ALTER`, `DROP`, `INSERT`, `UPDATE`, CSV `COPY`).
+* **Subqueries & CTEs:** Breaking down complex multi-step queries using subqueries and Common Table Expressions (`WITH ... AS`).
+* **Conditional Logic & Set Operations:** Applying conditional logic with `CASE WHEN` and combining query results using `UNION` / `UNION ALL`.
+* **Date Functions & Environment Setup:** Time-series analysis with `EXTRACT`, time zone casting, and running PostgreSQL locally in VS Code.
 
 
 ## Tech Stack & Tools
