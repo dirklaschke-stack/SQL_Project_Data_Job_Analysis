@@ -15,7 +15,7 @@ This repository showcases course content and final capstone project from the **S
 * **Aggregation:** Summary statistics with grouping and filter conditions (`COUNT`, `SUM`, `AVG`, `GROUP BY`, `HAVING`)
 * **Table Joins:** Relational linking via `INNER`, `LEFT`, `RIGHT`, and `OUTER JOIN`
 * **Query Execution:** Internal DB execution logic (`FROM` → `WHERE` → `GROUP BY` → `SELECT`)
-* **DDL & DML:** Schema creation, alteration, data manipulation, CSV loading (`CREATE`, `ALTER`, `INSERT`, `UPDATE`, `COPY`)
+* **DDL & DML:** Schema creation, alteration, data manipulation, CSV loading (`CREATE`, `ALTER`, `INSERT`, `UPDATE`)
 * **Subqueries & CTEs:** Complex query modularization via nested subqueries and `WITH` clauses
 * **Logic & Set Operations:** Branching logic (`CASE WHEN`) and dataset merging (`UNION`, `UNION ALL`)
 * **Dates & Tooling:** Temporal analysis (`EXTRACT`, time zones) in local PostgreSQL and VS Code environments
