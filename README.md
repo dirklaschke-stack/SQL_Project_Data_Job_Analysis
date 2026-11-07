@@ -94,7 +94,7 @@ An analysis of ~400k skill mentions reveals that hiring demand is heavily concen
 
 #### Result Graph
 
-![Top Demands](project_sql\assets\Gemini_Generated_Image_q2hlftq2hlftq2hl.jpg)
+![Top Demands](project_sql/assets/Gemini_Generated_Image_q2hlftq2hlftq2hl.jpg)
 
 Gemini generated thei graph from my SQL query results.
 
