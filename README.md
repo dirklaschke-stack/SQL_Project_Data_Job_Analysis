@@ -43,7 +43,15 @@ The course culminates in a capstone project focused on real-world labor market a
 
 ---
 
-### Key Insights & Visualizations
+### Queries & Visualizations
+
+[SQL Querries check them out here in project [SQL Folder](/project_sql) or click oin the links below
+
+* [Top-Paying Roles:](/project_sql/1_top_paying_jobs.sql)
+* [Skills for Top Earners:](/project_sql/2_top_paying_jobs_skills.sql)
+* [In demand Skills:](/project_sql/3_top_demanded_skills.sql)
+* [Top Skills by Salary:](/project_sql/3_top_demanded_skills.sql)
+* [Optimal Skills:](/project_sql/5_optimal_skills.sql)
 
 #### 1. Most Demanded Skills
 > SQL and Excel lead the market in overall demand, closely followed by Python and BI tools (Tableau, Power BI).
