@@ -53,20 +53,57 @@ The course culminates in a capstone project focused on real-world labor market a
 * [Top Skills by Salary:](/project_sql/3_top_demanded_skills.sql)
 * [Optimal Skills:](/project_sql/5_optimal_skills.sql)
 
-#### 1. Most Demanded Skills
-> SQL and Excel lead the market in overall demand, closely followed by Python and BI tools (Tableau, Power BI).
+### Example Result for Question 3
+
+#### SQL Query
 
 ```sql
--- Query snippet: Top 5 in-demand skills for Data Analysts
 SELECT
-    skills_dim.skill_id,
     skills_dim.skills,
-    COUNT(skills_job_dim.job_id) AS demand_count
-FROM job_postings_fact
-INNER JOIN skills_job_dim ON job_postings_fact.job_id = skills_job_dim.job_id
-INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
-WHERE job_postings_fact.job_title_short = 'Data Analyst'
-GROUP BY skills_dim.skill_id
-ORDER BY demand_count DESC
-LIMIT 5;
+    COUNT(skills_job_dim.skill_id) AS demand_count
+FROM
+    job_postings_fact
+INNER JOIN skills_job_dim on job_postings_fact.job_id = skills_job_dim.job_id
+INNER JOIN skills_dim on skills_job_dim.skill_id = skills_dim.skill_id
+WHERE
+    -- Filters job titles for 'Data Analyst' roles
+    job_postings_fact.job_title_short = 'Data Analyst'
+GROUP BY
+    skills_dim.skills
+ORDER BY
+    demand_count DESC
+LIMIT 10;
+```
+
+#### Result Table
+
+An analysis of ~400k skill mentions reveals that hiring demand is heavily concentrated in foundational querying, spreadsheet modeling, and programmatic scripting.
+
+| Rank | Skill | Job Postings | Share | Key Use Case |
+| :---: | :--- | :---: | :---: | :--- |
+| 1 | **SQL** | 92,628 | 23.2% | Database extraction, transforms, joins |
+| 2 | **Excel** | 67,031 | 16.8% | Ad-hoc modeling, quick analysis |
+| 3 | **Python** | 57,326 | 14.3% | Data wrangling (Pandas), scripting, automation |
+| 4 | **Tableau** | 46,554 | 11.6% | Enterprise BI dashboards |
+| 5 | **Power BI** | 39,468 | 9.9% | Microsoft ecosystem BI & DAX modeling |
+| 6 | **R** | 30,075 | 7.5% | Statistical modeling & academic research |
+| 7 | **SAS** | 28,068 | 7.0% | Legacy analytics (banking, healthcare) |
+| 8 | **PowerPoint** | 13,848 | 3.5% | Stakeholder presentations & reporting |
+| 9 | **Word** | 13,591 | 3.4% | Documentation & written briefs |
+| 10 | **SAP** | 11,297 | 2.8% | Enterprise ERP & operational data |
+
+#### Result Graph
+
+![Top Demands](project_sql\assets\Gemini_Generated_Image_q2hlftq2hlftq2hl.jpg)
+
+Gemini generated thei graph from my SQL query results.
+
+#### Key Insights
+
+- **Core Triumvirate:** SQL, Excel, and Python together make up **54.3%** of all top-10 skill demand.
+- **SQL Dominance:** Leads all tools by a wide margin, appearing in nearly 1 out of every 4 skill mentions.
+- **Python vs. R:** Python outpaces R by roughly **1.9x**, driven by broader automation and pipeline versatility.
+- **BI Competition:** Tableau and Power BI command a combined **21.5%**, remaining neck-and-neck as enterprise visualization standards.
+
+
 
