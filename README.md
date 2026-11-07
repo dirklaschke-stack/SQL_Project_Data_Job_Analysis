@@ -30,18 +30,20 @@ This repository showcases course content and final capstone project from the **S
 | **Git & GitHub** | Version control, documentation, and portfolio hosting |
 
 
-## Capstone Project: Data Analyst Job Market Analysis
+## Capstone Project:
 
-The capstone project analyzes a rich dataset of real-world job postings to identify key labor market trends for data professionals.
+The course culminates in a capstone project focused on real-world labor market analytics. Using a normalized dataset of 2023 tech job postings, you analyze compensation patterns, market demand, and skill values to identify high-leverage career opportunities.
 
-### Key Business Questions Addressed:
-1. **Top Demanded Skills:** Which capabilities appear most frequently in job descriptions?
-2. **Top Paying Skills:** Which technical competencies command the highest average salaries?
-3. **Optimal Skills:** Where is the sweet spot between high market demand and premium compensation?
+### Key Questions Addressed:
+1. **Top-Paying Roles:** What are the highest-paying jobs available for the targeted role?
+2. **Skills for Top Earners:** What specific technical skills are required for these top-paying positions?
+3. **In-Demand Skills:** Which tools and technologies appear most frequently across all postings?
+4. **Top Skills by Salary:** Which skills correlate with the highest average compensation?
+5. **Optimal Skills:** Which high-value skills offer the ideal combination of high demand and premium pay?
 
 ---
 
-### 📈 Key Insights & Visualizations
+### Key Insights & Visualizations
 
 #### 1. Most Demanded Skills
 > SQL and Excel lead the market in overall demand, closely followed by Python and BI tools (Tableau, Power BI).
