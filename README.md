@@ -44,7 +44,7 @@ The course culminates in a capstone project focused on real-world labor market a
 
 ### Queries
 
-SQL Querries check them out here in project [SQL Folder](/project_sql) or click oin the links below
+Find SQL querries in project [SQL Folder](/project_sql) or click oin the links below
 
 1. [Top-Paying Roles:](/project_sql/1_top_paying_jobs.sql)
 2. [Skills for Top Earners:](/project_sql/2_top_paying_jobs_skills.sql)
