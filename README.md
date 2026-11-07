@@ -47,11 +47,11 @@ The course culminates in a capstone project focused on real-world labor market a
 
 [SQL Querries check them out here in project [SQL Folder](/project_sql) or click oin the links below
 
-* [Top-Paying Roles:](/project_sql/1_top_paying_jobs.sql)
-* [Skills for Top Earners:](/project_sql/2_top_paying_jobs_skills.sql)
-* [In demand Skills:](/project_sql/3_top_demanded_skills.sql)
-* [Top Skills by Salary:](/project_sql/3_top_demanded_skills.sql)
-* [Optimal Skills:](/project_sql/5_optimal_skills.sql)
+1. [Top-Paying Roles:](/project_sql/1_top_paying_jobs.sql)
+2. [Skills for Top Earners:](/project_sql/2_top_paying_jobs_skills.sql)
+3. [In demand Skills:](/project_sql/3_top_demanded_skills.sql)
+4. [Top Skills by Salary:](/project_sql/3_top_demanded_skills.sql)
+5 [Optimal Skills:](/project_sql/5_optimal_skills.sql)
 
 ### Example Result for Question 3
 
